@@ -12,6 +12,7 @@
 * Run the config script
   ```bash
   python config.py --command=<path to exec> --script=<vpnc-script> --adress=<vpn.address> --out=<outfile.sh>
+  ```
 
 # VPN
 The VPN connection address to NTNU is *https://sslvpn.ntnu.no*.
