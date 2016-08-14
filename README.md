@@ -25,3 +25,8 @@ Hence to configure:
 ```bash
 python config.py --command=/usr/sbin/openconnect --script=/usr/share/vpnc-scripts/vpnc --address=https://sslvpn.ntnu.no --out=vpnntnu.sh
 ```
+
+Using the example above one can connect via vpn by running (as root)
+```bash
+bash vpnntnu.sh
+```
