@@ -34,6 +34,7 @@ def main(argv):
         return 1
 
     os = open( out, "w" )
+    os.write("# Generated with: python --command=%s --script=%s --address=%s --out=%s\n"%(command, script, address, out))
     os.write("%s --script=%s %s\n"%(command, script, address))
     os.close()
     print ("Created command file %s"%(out))
