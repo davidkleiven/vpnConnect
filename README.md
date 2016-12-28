@@ -18,8 +18,9 @@
 The VPN connection address to NTNU is *https://sslvpn.ntnu.no*.
 
 # Example of paths
-On my computer (debian 8) the command is located at */usr/sbin/openconnect*. 
+On my computer (debian 8) the command is located at */usr/sbin/openconnect*.
 The vpnc script is located at */usr/share/vpnc-scripts/vpnc-script*.
+On my fedora 25, the script is located at */etc/vpnc/vpnc-script*.
 
 Hence to configure:
 ```bash
